@@ -1,0 +1,112 @@
+.login_v {
+    height: 100%;
+    width: 100%;
+    background-color: #EFF6FF;
+    top:0;
+    margin:0;
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXVVn7fPrE0xI1yzCDJyrs7KVxH0LB8mu52A&usqp=CAU"); */
+    /* background-size: cover; */
+}
+
+.login_v>.logo {
+    height:7%;
+    width: 100%;
+    /* margin:0%; */
+    background:#006FCB;
+    color:white;
+    display:flex;
+}
+.login_v>.logo>img{
+    height:100%;
+    width:15%;
+}
+.login_v>.logo>h1{
+    height:100%;
+    width:50%;
+    margin-top:0%;
+    margin-left:20%;
+}
+.login_v>.container_v{
+    height:50%;
+    width:40%;
+    margin-left: 30%;
+    margin-top: 10%;
+    border-radius: 10px;
+    background-color: white;
+    border: 2px solid black;
+    /* border-style:dashed; */
+}
+.container_v>h2{
+    width:100%;
+    margin:0%;
+    height:10%;
+    text-align: center;
+    background-color: #006FCB;
+    color:white;
+    /* padding:10px; */
+    /* top:0%; */
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+
+    /* margin-top:5%; */
+}
+
+.container_v>.login_details{
+    height:50%;
+    width:100%;
+    text-align: center;
+ background-color: white;
+
+}
+.container_v>.login_details>label{
+   /* height:20px; */
+   /* width :200px; */
+   padding: 5px;
+   margin-bottom: 10px;
+
+   color:blue;
+
+}
+.container_v>.login_details>input{
+    border-radius: 4px;   
+    /* height:30px;  */
+    /* width :200px; */
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.container_v>.login_details>.login_submit{
+    background-color:#EFF6FF;
+    /* color:white; */
+    cursor: pointer;
+    margin-right: 32px;
+    font-weight: bold;
+
+}
+.container_v>.login_details>.login_submit:hover{
+    background-color: #006FCB;
+    cursor: pointer;
+    color:white;
+}
+.container_v>.login_span{
+    height:10%;
+    margin-left:35%;
+    margin-top:20px;
+    padding:2px;
+    /* background-color: white; */
+    /* text-align: center; */
+    /* justify-content: center; */
+    font-weight: 700;
+}
+.container_v>button{
+    padding:5px;
+    margin-left:35%;
+    margin-top:20px;
+    width:200px;
+    font-weight:bold;
+    background-color:#EFF6FF;
+}
+.container_v>button:hover{
+    background-color: #006FCB;
+    cursor: pointer;
+    color:white;
+}
